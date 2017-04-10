@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             //con este metodo recuperamos el nombre de la cuenta.
             String nombreCuenta = cuenta.name;
 
+            //pintamos en el log la cuenta
             Log.d("TAG", "Cuenta: " + nombreCuenta);
 
         }
